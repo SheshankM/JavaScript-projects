@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10%;
+}
+
+
+
+.container {
+  width: 60vw;
+  height: 60vh;
+  border: 8px solid #119a9a;
+  border-radius: 3px;
+  padding: initial;
+  background: url('./person/1.jpeg') center/cover fixed no-repeat;
+}
+
+.left {
+  position: relative;
+  top : 25vh;
+  left: -16px;
+  padding: 4px 6px;
+  background-color:  #119a9a;
+  border: 2px solid #119a9a;
+  color:white;
+
+}
+
+.right {
+  position: relative;
+  top : 25vh;
+  right: -410px;
+  padding: 4px 6px;
+  background-color:  #119a9a;
+  border: 2px solid #119a9a;
+  color:white;
+}
+
+.right:hover , .left:hover {
+  background-color: white;
+  color: #119a9a;
+}
